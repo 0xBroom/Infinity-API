@@ -1,0 +1,9 @@
+{
+  "name": "@multitec/server",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "./venv/bin/python -m uvicorn src:app --reload --port 8000 --loop uvloop",
+    "start": "./venv/bin/python -m uvicorn src:app --port 8000 --loop uvloop",
+    "lint": "make lint"
+  }
+}
